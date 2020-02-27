@@ -1,0 +1,312 @@
+#wrapper {
+	background: #F5F5CD; 
+	margin: auto;
+	width: 85%;
+	border: 0;
+}
+
+#header {
+	height: 140px;
+	background-image: url("foto/hd.jpg");
+}
+
+#header-menu {
+	height: 49px;
+	margin-left: 153px;
+	margin-right: 117px;
+	width: 913px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+#logo {
+	float: right;
+	margin-top: 7px;
+	margin-right: 28px;
+}
+
+#logo-left {
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#logoname1 {
+	float:left;
+	width:250px;
+	margin-left:5px;
+	margin-top:45px;
+	font:1.5em/100% 'Aharoni';
+	font-weight: bold;
+}
+
+#logoname2 {
+	float:left;
+	width:250px;
+	margin-left: -250px;
+	margin-top:70px;
+	font:1.5em/100% 'Aharoni';
+	font-weight: bold;
+}
+
+#inner {
+	clear:both;
+}
+
+#menu {
+	float: left;
+	margin-top: -5px;
+	list-style: none;
+}
+
+#menu a:link, #menu a:visited, #menu a:active {
+	padding-left: 0px;
+	text-decoration: none; 
+}
+
+#menu a {
+	padding: 0px 5px 8px 0px;
+	margin: 0px 0px 1px;
+}
+
+#menu ul{
+	list-style: none;
+	padding-top: 15px;
+	margin: 0px;
+}
+
+#menu li{
+	display: inline-block;
+	position: relative;
+	float: left;
+}
+
+#menu li ul {
+	display: none;
+}
+
+#menu li a{
+	display: block;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+#menu li:hover ul{
+	display: block;
+	position: absolute;
+	background: white;
+	border: 1px solid lightgrey;
+}
+
+#menu li:hover li{
+	float: none;
+	background-color: transparent;
+}
+
+#menu li:hover {
+	background-color: #F5F5CD;
+	padding-top: 7px;
+	margin-top: -5px;
+}
+
+#menu li:last-child{
+	border-right: none;
+}
+
+.txt {
+	float: left;
+	margin-left: 80px;
+	margin-top: 20px;
+	font-family: 'arial';
+}
+
+.txt1 {
+	float: left;
+	margin-left: -175px;
+	margin-top: 45px;
+	font-family: 'arial';
+	text-align: right;
+}
+
+.txt2{
+	margin-top: 0px;
+	margin-left: -15px;
+	margin-right: 80px;
+}
+
+.garis{
+	border: 0.9px solid grey;
+	margin-top: 50px;
+	margin-left: 25px;
+	margin-bottom: 5px;
+	width: 710px;
+}
+
+.garis1{
+	border: 0.5px solid grey;
+	margin-top: -520px;
+	margin-left: 25px;
+	margin-bottom: 5px;
+	width: 710px;
+}
+
+.garis2{
+	border: 0.5px solid grey;
+	margin-top: 585px;
+	margin-left: 25px;
+	margin-bottom: 5px;
+	width: 710px;
+}
+
+.tab1{
+	float: left;
+	margin-top: 5px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	color: teal;
+	font-family: 'arial';
+	font-size: 16px;
+}
+
+#contentbox {
+	float: left;
+	width: 690px;
+	height: 1800px;
+}
+
+#content {
+	float: left;
+	width: 780px;
+	height: 140px;
+	margin-top: 6px;
+	margin-left: 45px;
+}
+
+i[class="fa fa-home"],
+i[class="fa fa-book"],
+i[class="fa fa-folder"],
+i[class="fa fa-file"],
+i[class="fa fa-exclamation-circle"],
+i[class="fa fa-asterisk"]{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -5px;
+}
+
+#footer {
+	clear: both;
+	height: 57px;
+	border: 0;
+	width: 100%;
+	background-color: orange;
+}
+
+#Credits {
+	float:left;
+	width:756px;
+	margin-top:20px;
+}
+
+.isi1{
+	padding: 15px;
+}
+
+.tombol {
+  background: lightgrey;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 5px 8px;
+  font-family: 'cambria';
+  padding: 6px;
+  font-weight: bold;
+  width: 140px;
+  margin-left: 42px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+  
+#sidebar a:link, #sidebar a:visited, #sidebar a:active {
+	text-decoration: none; 
+}
+
+#sidebar a {
+	padding: 6px;
+	width: 152px;
+	padding-right: 17px;
+	display: block;
+	border-bottom: 0.7px dashed grey;
+	margin: 0px 0px 1px;
+	color: teal; 
+	font-weight: bold;
+	background: transparent;
+}
+
+#sidebar a:hover {
+	color: blue;
+}
+
+.pil{
+	margin-top: 30px;
+	margin-left: 40px;
+	font-family: "times new roman";
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.gan{
+	margin-top: -26px;
+	margin-left: 90px;
+	font-family: "times new roman";
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.soal{
+	margin-top: 5px;
+	margin-left: 40px;
+	color: black;
+	margin-bottom: -47px;
+	margin-right: 30px;
+	font-family: 'arial';
+	font-size: 16px;
+}
+
+.soal1{
+	float: left;
+	margin-right: 30px;
+	color: teal;
+	margin-top: -8px;
+	margin-bottom: 5px;
+	margin-left: 170px;
+	font-family: 'arial';
+	font-size: 16px;
+}
+
+.soal3{
+	margin-top: 29px;
+	margin-left: 160px;
+	color: black;
+	margin-bottom: -47px;
+	margin-right: 30px;
+	font-family: 'arial';
+	font-size: 16px;
+}
+
+.gambar {
+	margin-top: 10px;
+	margin-left: 160px;
+}
+
+.txt3 {
+	float: left;
+	margin-left: -83px;
+	margin-top: 183px;
+	font-family: 'arial';
+}
+
+.edit{
+	float: right;
+	margin-right: 70px;
+	margin-top: -495px;
+}

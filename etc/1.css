@@ -1,0 +1,210 @@
+#wrapper {
+	background-image: url("bg.jpg"); 
+	margin: auto;
+	width: 90%;
+	border: 0;
+}
+
+#header {
+	height: 100px;
+	background-color: black;
+}
+
+#header-menu {
+	height: 42px;
+	background-color: orange;
+}
+
+#logo {
+	float: right;
+	margin-top: 7px;
+	margin-right: 15px;
+}
+
+#logoname {
+	float:left;
+	width:250px;
+	margin-left:30px;
+	margin-top:35px;
+	font:1.5em/100% 'Verdana';
+	font-weight: bold;
+}
+
+#searchmenu {
+	float: right;
+	height: 25px;
+	width:230px;
+	margin:2px 25px auto;
+	border: 0;
+}
+
+#inner {
+	clear:both;
+}
+
+#menu {
+	float: left;
+	padding: 0;
+}
+
+#menu a:link, #menu a:visited, #menu a:active {
+	padding-left: 0px;
+	text-decoration: none; 
+}
+
+#menu a {
+	padding: 16px 5px 8px 0px;
+	background: orange no-repeat left center;
+	margin: 0px 0px 1px;
+	color: #E0FFFF; 
+}
+
+#menu a:hover { /*efek*/
+	background: brown no-repeat left center;
+	color: black;
+}
+
+#menu ul{
+	list-style: none;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu li:last-child{
+	border-right: none;
+}
+/*
+#sidebar a:link, #sidebar a:visited, #sidebar a:active {
+	padding-left: 15px;
+	text-decoration: none; 
+}
+
+#sidebar a {
+	padding: 8px 5px 8px 15px;
+	display: block;
+	background: #20B2AA no-repeat left center;
+	margin: 0px 0px 1px;
+	color: #E0FFFF; 
+}
+
+#sidebar a:hover {
+	background: #F5FFFA no-repeat left center;
+	color: black;
+}*/
+
+#sidebar {
+	background-image: url("bg.jpg");
+	float: right;
+	width: 250px;
+	height: 528px;
+}
+
+/*#sidebar ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#sidebar li{
+	display: inline;
+}*/
+
+#contentbox {
+	float: left;
+	width: 698px;
+	height: 530px;
+}
+
+#top{
+	height: 150px;
+	border: 0;
+}
+
+#content {
+	float: left;
+	width: 800px;
+	height: 500px;
+	margin-left: 25px;
+}
+
+#morelinks {
+	float: right;
+	width: 200px;
+	height: 170px;
+	margin-top:20px;
+	margin-right: 20px; 
+	border: 1px solid orange;
+	background-color:white;
+	border-radius:10px;
+}
+
+#footer {
+	clear: both;
+	height: 50px;
+	border: 0;
+	background-color: orange;
+}
+
+#Credits {
+	float:left;
+	width:756px;
+	margin-top:20px;
+}
+
+.scroll{
+  padding: 10px;
+  overflow: scroll;
+  height: 500px;
+  width: 875px;
+  
+  /*script tambahan khusus untuk IE */
+  scrollbar-face-color: #CE7E00; 
+  scrollbar-shadow-color: #FFFFFF; 
+  scrollbar-highlight-color: #6F4709; 
+  scrollbar-3dlight-color: #11111; 
+  scrollbar-darkshadow-color: #6F4709; 
+  scrollbar-track-color: #FFE8C1; 
+  scrollbar-arrow-color: #6F4709;
+}
+
+h1 {
+  color: grey;
+}
+
+h3 {
+  color: #3498db;
+}
+
+.login {
+  padding: 1em;
+  margin: 10em auto;
+  width: 17em;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0,0.8);
+  border: 1px solid grey;
+}
+
+label {
+  font-size: 10pt;
+  color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 5px;
+  width: 70%;
+  background: white;
+  border: 0;
+  font-size: 10pt;
+  margin: 5px 0px;
+}
+
+.tombol {
+  background: #3498db;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+}

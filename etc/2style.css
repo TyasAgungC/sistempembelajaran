@@ -1,0 +1,252 @@
+#wrapper {
+	background-image: url("images/bg.jpg"); 
+	margin: auto;
+	width: 90%;
+	border: 0;
+}
+
+a{
+	text-decoration:none;
+}
+
+#header {
+	height: 140px;
+	background-image: url("images/hd.jpg");
+}
+
+#header-menu {
+	height: 42px;
+	background-image: url("images/bg.jpg");
+}
+
+#logo {
+	float: right;
+	margin-top: 7px;
+	margin-right: 23px;
+}
+
+#logo-left {
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#logoname1 {
+	float:left;
+	width:250px;
+	margin-left:5px;
+	margin-top:45px;
+	font:1.5em/100% 'Aharoni';
+	font-weight: bold;
+}
+
+#logoname2 {
+	float:left;
+	width:250px;
+	margin-left: -250px;
+	margin-top:70px;
+	font:1.5em/100% 'Aharoni';
+	font-weight: bold;
+}
+
+#searchmenu {
+	float: right;
+	height: 25px;
+	width:230px;
+	margin:15px 25px auto;
+	border: 0;
+}
+
+#inner {
+	clear:both;
+}
+
+#menu {
+	float: left;
+	list-style: none;
+}
+
+#menu a:link, #menu a:visited, #menu a:active {
+	padding-left: 0px;
+	text-decoration: none; 
+}
+
+#menu a {
+	padding: 15px 10px 8px 10px;
+	/*background: orange no-repeat left center;*/
+	margin: 0px 0px 1px 0px;
+	color: black;
+	/*border-bottom: 1px solid black;*/
+}
+
+#menu a:hover { efek
+	background: orange no-repeat left center;
+	color: red;
+}
+
+#menu ul{
+	list-style: none;
+}
+
+#menu li{
+	display: inline-block;
+	position: relative;
+	float: left;
+}
+
+#menu li:last-child{
+	border-right: none;
+}
+
+#menu li ul {
+	display: none;
+}
+
+#menu li a{
+	display: block;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+#menu li:hover ul{
+	display: block;
+	position: absolute;
+	background-color: orange;
+	border: 1px solid orange;
+}
+
+#menu li:hover li{
+	float: none;
+	background-color: orange;
+}
+
+#menu li:hover {
+	background-color: orange;
+}
+/*
+#sidebar a:link, #sidebar a:visited, #sidebar a:active {
+	padding-left: 15px;
+	text-decoration: none; 
+}
+
+#sidebar a {
+	padding: 8px 5px 8px 15px;
+	display: block;
+	background: #20B2AA no-repeat left center;
+	margin: 0px 0px 1px;
+	color: #E0FFFF; 
+}
+
+#sidebar a:hover {
+	background: #F5FFFA no-repeat left center;
+	color: black;
+}*/
+
+#sidebar {
+	background-image: url("images/bg.jpg");
+	float: right;
+	width: 250px;
+	height: 528px;
+}
+
+/*#sidebar ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#sidebar li{
+	display: inline;
+}*/
+
+#contentbox {
+	float: left;
+	width: 698px;
+	height: 530px;
+}
+
+#top{
+	height: 150px;
+	border: 0;
+}
+
+#content {
+	float: left;
+	width: 800px;
+	height: 500px;
+	margin-left: 25px;
+}
+
+#login {
+	float: right;
+	width: 200px;
+	height: 160px;
+	margin-top:20px;
+	margin-right: 20px; 
+	border: 1px solid orange;
+	background-color: ivory;
+	border-radius:10px;
+}
+
+#morelinks {
+	float: right;
+	width: 200px;
+	height: 160px;
+	margin-top:20px;
+	margin-right: 20px; 
+	color: orange;
+}
+
+#footer {
+	clear: both;
+	height: 50px;
+	border: 0;
+	background-color: orange;
+}
+
+#Credits {
+	float:left;
+	width:756px;
+	margin-top:20px;
+}
+
+.scroll{
+  padding: 10px;
+  overflow: scroll;
+  height: 500px;
+  width: 875px;
+  
+  /*script tambahan khusus untuk IE */
+  scrollbar-face-color: #CE7E00; 
+  scrollbar-shadow-color: #FFFFFF; 
+  scrollbar-highlight-color: #6F4709; 
+  scrollbar-3dlight-color: #11111; 
+  scrollbar-darkshadow-color: #6F4709; 
+  scrollbar-track-color: #FFE8C1; 
+  scrollbar-arrow-color: #6F4709;
+}
+
+h1 {
+  color: grey;
+}
+
+h3 {
+  color: #3498db;
+}
+
+h4 {
+	color: orange;
+}
+
+label {
+  font-size: 10pt;
+  color: #555;
+}
+
+.tombol {
+  background: orange;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+

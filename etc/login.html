@@ -1,0 +1,148 @@
+<?php
+session_start();
+if(!isset($_SESSION['user'])){
+	header('location:login.html');
+} else {
+	$username = $_SESSION['user'];
+}
+?>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<title>Modul Interaktif</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compitable" content="ie=edge">
+	<link rel="stylesheet" href="index.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body bgcolor="grey">
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo-left"><img src="images/logo.PNG" width="135" height="135"></div>
+			<div id="logo"><img src="images/um.PNG" width="125" height="125"></div>
+			<div id="logoname1" style="-webkit-text-stroke: 2px black"><font color="white" size="7">MODUL</font></div><br />
+			<div id="logoname2" style="-webkit-text-stroke: 2px black"><font color="white" size="7.5">INTERAKTIF</font></div><br />
+		</div>
+		<hr width="1142px" align="left">
+		<div id="header-menu">
+			<div id="menu" align="left">
+				<ul>
+					<li><a href="proseslogin.php"><i class="fa fa-home" style="width: 90px;"> Beranda</i></a></li>
+					<li><a href="tutorial.html"><i class="fa fa-book" style="width: 90px;"> Tutorial</i></a>
+						<ul>
+							<li><a href="#">Video</a></li>
+							<li><a href="#">Materi</a></li>
+						</ul>
+					</li>
+					<li><a href="latihan.html"><i class="fa fa-pencil-square" style="width: 90px;"> Latihan</i></a></li>
+					<li><a href="informasi.html"><i class="fa fa-exclamation-circle" style="width: 90px;"> Informasi <i class="fa fa-caret-down"></i></i></a>
+						<ul>
+							<li><a href="#">Berita & Acara</a></li>
+							<li><a href="#">Informasi Nilai</a></li>
+						</ul>
+					</li>
+					<li><a href="live.html"><i class="fa fa-pencil-square-o" style="width: 120px;"> Live Coding </i></a></li>
+					<li><a href="angket.html"><i class="fa fa-quote-left" style="width: 90px;"> Angket</i></a></li>
+					<li><a href="panduan.html"><i class="fa fa-tag" style="width: 90px;"> Panduan</i></a></li>
+				</ul>
+			</div>
+			<div id="searchmenu" align="right">
+				<form> 
+					<input type="text" name="search" placeholder="Kata Kunci" size="20">
+					<input type="submit" value="cari" class="tombol">
+				</form>
+			</div>
+		</div>
+		<hr width="1142px" align="left">
+		<div id="inner">
+		<div id="contentbox">
+			<div class="scroll">
+			<div id="content">
+				<p><h3><font color="blue"> Selamat Datang</font></h3></p>
+				<p align="justify">
+					Bootstrap adalah front-end framework yang solek, bagus 
+					dan luar biasa yang mengedapankan tampilan untuk mobile
+					device (Handphone, smartphone dan lain-lain) guna 
+					mempercepat dan mempermudah pengembangan website. 
+					Bootstrap menyediakan HTML, CSS dan Javascript siap 
+					pakai dan mudah untuk ..
+				<a href="#">Read more</a></p>
+				<img src="images/teknik.jpg" height="150px" width="800px"><br />
+				<p><h3> Video Terkait </h3></p>
+				<p><video controls><source src="contohvideo.mp4" type="video/mp4"></video>
+				   <video controls><source src="contohvideo.mp4" type="video/mp4"></video></p>
+				<p><video controls><source src="contohvideo.mp4" type="video/mp4"></video>
+				   <video controls><source src="contohvideo.mp4" type="video/mp4"></video></p>
+			</div>
+			</div>
+		</div>
+
+		<div id="sidebar">
+			<div id="login">
+				<!--<?php
+					//if(isset($_POST['login'])){
+					//include("index.html");
+					
+					//$username	= $_POST['user'];
+					//$password	= md5($_POST['pass']);
+					
+					//$query = mysqli_query($cnn, "SELECT * FROM mhs WHERE nim='$username' AND pass='$password'");
+					//if(mysqli_num_rows($query) == 0){
+					//	echo 'Upss...!!! Login gagal';
+					//}else{
+					//	$row = mysqli_fetch_assoc($query);
+						
+					}
+				}
+				?>-->
+				<form action="proseslogin.php" method="GET">
+					<div class="tombol"><center>Login Disini</center></div> <br />
+					<div>
+					<center>
+					<input type="text" name="user" id="user" placeholder="NIM" autofocus /></center> 
+					</div> <br />
+					<div>
+					<center>
+					<input type="password" name="pass" id="pass" placeholder="Password" /></center> 
+					</div> <br />
+					<div>
+					<center><input type="submit" name="login" value="Login" class="tombol"></center> 
+					</div>
+				</form>
+			</div>
+		
+			<div id="morelinks">
+				<p>&nbsp;<h4>Tautan Lain</h4></p>
+				<ul>
+					<li>(1)
+						<ul>
+							<li>Live Editor</li>
+						</ul>
+					</li>
+    				<li>Abstract Class (2)
+    					<ul>
+							<li>Pengertian dan Kegunaan Abstrak Class</li>
+							<li>Manfaat Abstract Class</li>
+						</ul>
+    				</li> 
+				</ul>
+			</div>
+		</div>
+		
+
+		<div id="footer">
+			<div id="credits">
+			<div align="center">
+				<font color="#E0FFFF">
+				&copy; 2018. Design by Tiga Dara. Teknik Informatika UM 
+				</font>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+
+
